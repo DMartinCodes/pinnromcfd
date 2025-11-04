@@ -1,0 +1,5 @@
+constant/polyMesh/
+0/
+processor*/
+postProcessing/
+*.log
