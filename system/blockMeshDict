@@ -1,0 +1,86 @@
+FoamFile
+{
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object blockMeshDict;
+}
+
+convertToMeters 1;
+
+vertices
+(
+    (-2.19 -0.58 0)     // bottom left front (upstream, side1, ground)
+    ( 7.20 -0.58 0)     // bottom right front (downstream, side1, ground)
+    ( 7.20  0.584 0)    // bottom right back (downstream, side2, ground)
+    (-2.19  0.584 0)    // bottom left back (upstream, side2, ground)
+    (-2.19 -0.58 1.014) // top left front (upstream, side1, top)
+    ( 7.20 -0.58 1.014) // top right front (downstream, side1, top)
+    ( 7.20  0.584 1.014)// top right back (downstream, side2, top)
+    (-2.19  0.584 1.014)// top left back (upstream, side2, top)
+);
+
+blocks
+(
+    hex (0 1 2 3 4 5 6 7) (180 54 54) simpleGrading (1 1 1)
+);
+
+edges
+(
+);
+
+boundary
+(
+    inlet
+    {
+        type patch;
+        faces
+        (
+            (0 3 7 4)
+        );
+    }
+    outlet
+    {
+        type patch;
+        faces
+        (
+            (1 2 6 5)
+        );
+    }
+    top
+    {
+        type symmetryPlane;
+        faces
+        (
+            (4 5 6 7)
+        );
+    }
+    bottom
+    {
+        type wall;
+        faces
+        (
+            (0 1 5 4)
+        );
+    }
+    side1
+    {
+        type symmetryPlane;
+        faces
+        (
+            (0 1 2 3)
+        );
+    }
+    side2
+    {
+        type symmetryPlane;
+        faces
+        (
+            (2 3 7 6)
+        );
+    }
+);
+
+mergePatchPairs
+(
+);

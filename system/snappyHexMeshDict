@@ -1,0 +1,121 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      snappyHexMeshDict;
+}
+
+mergeTolerance 1e-6;    
+
+castellatedMesh true;
+snap            true;
+addLayers       true;
+
+geometry
+{
+    ahmedBody
+    {
+        type triSurfaceMesh;
+        file "ahmed_25deg_m.stl";
+    }
+}
+
+castellatedMeshControls
+{
+    maxLocalCells        1000000;
+    maxGlobalCells       2000000;
+    minRefinementCells   10;
+    nCellsBetweenLevels  3;
+    resolveFeatureAngle  60;
+
+    features
+    (
+        // Leave empty or use edge extraction utility if needed
+    );
+
+    refinementSurfaces
+    {
+        ahmedBody
+        {
+            level (4 5);          // min/max refinement levels near Ahmed body surface
+            faceZone ahmedZone;   // zone for post-processing if needed
+            cellZone ahmedZone;
+            cellZoneInside inside; // cells inside surface get zone label
+        }
+    }
+
+    refinementRegions
+    {
+        boxRefine
+        {
+            mode inside;
+            levels ((1E15 3)); // 3 = local mesh refinement level around body
+        }
+    }
+
+    locationInMesh (0.3 0 0.1); // Point inside fluid domain, based on bounding box
+    allowFreeStandingZoneFaces true;
+}
+
+snapControls
+{
+    nSmoothPatch 3;
+    tolerance 2.0;
+    nSolveIter 30;
+    nRelaxIter 5;
+    nFeatureSnapIter 10;
+    implicitFeatureSnap false;
+    explicitFeatureSnap true;
+    multiRegionFeatureSnap false;
+}
+
+addLayersControls
+{
+    relativeSizes true;
+    layers
+    {
+        ahmedBody
+        {
+            nSurfaceLayers 3; // Number of inflation layers for boundary layer resolution
+        }
+    }
+    expansionRatio 1.2;
+    finalLayerThickness 0.3;
+    minThickness 0.1;
+    nGrow 1;
+    featureAngle 70;
+    slipFeatureAngle 30;
+    // Further tuning possible
+}
+
+meshQualityControls
+{
+    maxNonOrtho 65;
+    maxBoundarySkewness 20;
+    maxInternalSkewness 4;
+    maxConcave 80;
+    minVol 1e-13;
+    minTetQuality 1e-9;
+    minArea -1;
+    minTwist 0.02;
+    minDeterminant 0.001;
+    minFaceWeight 0.02;
+    minVolRatio 0.01;
+    minTriangleTwist -1;
+    nSmoothScale 4;
+    errorReduction 0.75;
+}
+
+writeFlags
+(
+    scalarLevels
+    layerSets
+    layerFields
+);
+
+timingControls
+{
+    runTime 0;
+}
+
