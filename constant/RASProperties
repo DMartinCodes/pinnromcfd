@@ -1,0 +1,14 @@
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      RASProperties;
+}
+
+simulationType RAS;
+RAS
+{
+    model        SpalartAllmaras;
+    turbulence   on;
+}

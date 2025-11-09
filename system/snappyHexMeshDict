@@ -38,7 +38,7 @@ castellatedMeshControls
     {
         ahmedBody
         {
-            level (4 5);          // min/max refinement levels near Ahmed body surface
+            level (2 3);          // min/max refinement levels near Ahmed body surface
             faceZone ahmedZone;   // zone for post-processing if needed
             cellZone ahmedZone;
             cellZoneInside inside; // cells inside surface get zone label
@@ -81,6 +81,9 @@ addLayersControls
         }
     }
     expansionRatio 1.2;
+    nBufferCellsNoExtrude 0;
+    nLayerIter 50;
+    maxFaceThicknessRatio 0.5;
     finalLayerThickness 0.3;
     minThickness 0.1;
     nGrow 1;
