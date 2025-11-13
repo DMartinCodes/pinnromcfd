@@ -1,0 +1,16 @@
+solid MeshRefinement004
+ facet normal -0.4226182699203491 -0.0 -0.9063078165054321
+  outer loop
+   vertex -0.20120033264160156 0.1945 0.338
+   vertex 0.0 0.0 0.24417874145507812
+   vertex -0.20120033264160156 0.0 0.338
+  endloop
+ endfacet
+ facet normal -0.4226182699203491 0.0 -0.9063078165054321
+  outer loop
+   vertex -0.20120033264160156 0.1945 0.338
+   vertex 0.0 0.1945 0.24417874145507812
+   vertex 0.0 0.0 0.24417874145507812
+  endloop
+ endfacet
+endsolid MeshRefinement004

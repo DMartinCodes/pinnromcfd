@@ -1,0 +1,37 @@
+solid MeshRefinement003
+ facet normal 0.0 -1.0 0.0
+  outer loop
+   vertex 0.0 0.1945 0.05
+   vertex -0.20120033264160156 0.1945 0.338
+   vertex -0.9440000000000001 0.1945 0.05
+  endloop
+ endfacet
+ facet normal 0.0 -1.0 0.0
+  outer loop
+   vertex -0.9440000000000001 0.1945 0.05
+   vertex -0.20120033264160156 0.1945 0.338
+   vertex -0.9440000000000001 0.1945 0.338
+  endloop
+ endfacet
+ facet normal 0.0 -1.0 0.0
+  outer loop
+   vertex 0.0 0.1945 0.05
+   vertex 0.0 0.1945 0.24417874145507812
+   vertex -0.20120033264160156 0.1945 0.338
+  endloop
+ endfacet
+ facet normal 0.0 0.0 -1.0
+  outer loop
+   vertex -0.9440000000000001 0.1945 0.338
+   vertex -0.20120033264160156 0.1945 0.338
+   vertex -0.9440000000000001 0.0 0.338
+  endloop
+ endfacet
+ facet normal 0.0 0.0 -1.0
+  outer loop
+   vertex -0.9440000000000001 0.0 0.338
+   vertex -0.20120033264160156 0.1945 0.338
+   vertex -0.20120033264160156 0.0 0.338
+  endloop
+ endfacet
+endsolid MeshRefinement003

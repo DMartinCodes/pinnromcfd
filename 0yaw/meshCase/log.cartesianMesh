@@ -1,0 +1,275 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _e651d635-20240208 OPENFOAM=2312 patch=240220 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : cartesianMesh
+Date   : Nov 13 2025
+Time   : 14:38:41
+Host   : dmanzsvr
+PID    : 4003714
+I/O    : uncollated
+Case   : /home/dman/Desktop/cfd/FreeCAD/meshCase
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Created 10 surface patches
+Setting root cube size and refinement parameters
+Root box (-11.07145 -11.87032 -11.34832) (13.71319 12.91432 13.43632)
+Requested cell size corresponds to octree level 7
+Requested boundary cell size corresponds to octree level 7
+Refining boundary
+Refining boundary boxes to the given size
+Finished refining boundary boxes
+Refining boxes intersecting surface meshes
+Finished refinement of boxes intersecting surface meshes
+Performing automatic refinement
+Performing automatic refinement
+Marking inside/outside.
+Number of internal boxes is 69793
+Number of outside boxes is 166458
+Number of data boxes is 16345
+Number of unknown boxes is 0
+Refining boxes near DATA boxes
+Marking inside/outside.
+Number of internal boxes is 73833
+Number of outside boxes is 167908
+Number of data boxes is 18765
+Number of unknown boxes is 0
+Finished refining boxes near DATA boxes
+Extracting polyMesh
+Creating octree vertices
+Octree nodes 110805
+Resizing points!
+Finished creating octree vertices
+Creating polyMesh from octree
+Reordering boundary faces 
+Finished reordering boundary faces
+Finished creating polyMesh
+Mesh has :
+91450 vertices 
+237539 faces
+73271 cells
+Finished extracting polyMesh
+Checking for irregular surface connections
+Checking cells connected to surface vertices
+Found 20884 boundary faces 
+Found 0 problematic vertices
+Finished checking cells connected to surface vertices
+Checking for non-manifold surface edges
+Found 0 non-manifold edges
+Finished checking for non-manifold surface edges
+Checking faces connections to surface vertices
+Found 0 invalid connections
+Finished checking faces connections to surface vertices
+Finished checking for irregular surface connections
+Found 20884 boundary faces 
+Found 0 non-mappable cells
+Checking cell connections
+Finished checking cell connections
+Found 20884 boundary faces 
+Marked 0 faces for decomposition
+Found 20884 boundary faces 
+Smoothing mesh surface before mapping.
+Found 0 corners at the surface of the volume mesh
+Found 0 edge points at the surface of the volume mesh
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Found 0 corners at the surface of the volume mesh
+Found 0 edge points at the surface of the volume mesh
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 2
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Found 0 corners at the surface of the volume mesh
+Found 0 edge points at the surface of the volume mesh
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Finished smoothing mesh surface before mapping.
+Mapping vertices onto surface
+Finished mapping vertices onto surface
+Found 0 corners at the surface of the volume mesh
+Found 0 edge points at the surface of the volume mesh
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Found 20884 boundary faces 
+Extracting edges
+Starting topological adjustment of patches
+No topological adjustment was needed
+Starting geometrical adjustment of patches
+Found 10 corners at the surface of the volume mesh
+Found 990 edge points at the surface of the volume mesh
+19 edge groups found!
+--> FOAM Warning : 
+    From void edgeExtractor::extractEdges()
+    in file utilities/surfaceTools/edgeExtraction/edgeExtractor/edgeExtractor.C at line 2118
+    Found 15 points with inverted surface normals. Getting rid of them...
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 15
+Number of inverted boundary faces is 11
+Number of inverted boundary faces is 11
+Number of inverted boundary faces is 11
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+No geometrical adjustment was needed
+Found 20884 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 990 edge points at the surface of the volume mesh
+Decomposing 3 internal faces
+Performing patch correction
+Found 20884 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 990 edge points at the surface of the volume mesh
+Finished with patch correction
+Found 20922 boundary faces 
+Removing selected cells from the mesh
+New cells size 73232
+Reordering boundary faces 
+Finished reordering boundary faces
+Removing faces
+Finished removing faces
+Finished removing selected cells from the mesh
+Adding new cells 
+Adding 290 cells to the mesh
+Finished adding cells to the mesh
+Reordering bnd faces
+Reordering boundary faces 
+Finished reordering boundary faces
+Finding bnd faces
+Found 20922 boundary faces 
+Mapping vertices with respect to surface patches
+Found 10 corners at the surface of the volume mesh
+Found 990 edge points at the surface of the volume mesh
+19 edge groups found!
+Finished mapping vertices with respect to surface patches
+Found 20922 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 990 edge points at the surface of the volume mesh
+Optimizing edges. Iteration:.....
+Optimizing surface vertices. Iteration:.....
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Found 20922 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 990 edge points at the surface of the volume mesh
+Found 10 corners at the surface of the volume mesh
+Found 990 edge points at the surface of the volume mesh
+Starting creating layer cells
+Adding 21886 cells to the mesh
+Finished adding cells to the mesh
+Reordering boundary faces 
+Finished reordering boundary faces
+Finished creating layer cells
+Found 22858 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 1016 edge points at the surface of the volume mesh
+Optimizing edges. Iteration:.....
+Optimizing surface vertices. Iteration:.....
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Found 22858 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 1016 edge points at the surface of the volume mesh
+Starting smoothing the mesh
+Starting untangling the mesh
+Iteration 0. Number of bad faces is 0
+Finished untangling the mesh
+Finished smoothing the mesh
+Iteration 0. Number of bad faces is 0
+Starting refining boundary layers
+Found 22858 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 1016 edge points at the surface of the volume mesh
+Detecting layers
+Analysing mesh for bnd layer existence
+Generating hair edges
+Finished with bnd layer detection
+Finished refining boundary-layer faces 
+Number of newly generated cells 23846
+Resizing cells!
+Resizing faces!
+Finished generating new cells 
+Finished refining boundary layers
+Found 24842 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 1042 edge points at the surface of the volume mesh
+Starting optimising boundary layer
+Found 10 corners at the surface of the volume mesh
+Found 1042 edge points at the surface of the volume mesh
+Detecting layers
+Analysing mesh for bnd layer existence
+Generating hair edges
+Finished with bnd layer detection
+Found 10 corners at the surface of the volume mesh
+Found 1042 edge points at the surface of the volume mesh
+Smoothing boundary hair vectors
+Finished smoothing boundary hair vectors
+Optimizing edges. Iteration:..
+Optimizing surface vertices. Iteration:..
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Smoothing internal hair vectors
+Finished smoothing internal hair vectors
+Starting smoothing the mesh
+Starting untangling the mesh
+--> FOAM Warning : 
+    From bool checkFacePyramids(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2101
+    Error in face pyramids: 2 faces pointing the wrong way!
+--> FOAM Warning : 
+    From bool checkCellPartTetrahedra(const polyMeshGen&, const bool, const scalar, labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1594
+    8 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 8
+Iteration 1. Number of bad faces is 0
+Finished untangling the mesh
+Finished smoothing the mesh
+Starting untangling the mesh
+Iteration 0. Number of bad faces is 0
+Finished untangling the mesh
+Finished optimising boundary layer
+Starting untangling the mesh
+Iteration 0. Number of bad faces is 0
+Finished untangling the mesh
+Starting refining boundary layers
+Found 24842 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 1042 edge points at the surface of the volume mesh
+Detecting layers
+Analysing mesh for bnd layer existence
+Generating hair edges
+Finished with bnd layer detection
+Resizing points!
+Finished refining boundary-layer faces 
+Number of newly generated cells 43998
+Finished generating new cells 
+Finished refining boundary layers
+Found 27395 boundary faces 
+Found 10 corners at the surface of the volume mesh
+Found 1054 edge points at the surface of the volume mesh
+Renumbering the mesh
+Finished renumbering the mesh
+Renaming boundary patches
+Finished renaming boundary patches
+ExecutionTime = 51.22 s
+ClockTime = 2 s
+End
+
