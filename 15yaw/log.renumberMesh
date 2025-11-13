@@ -1,0 +1,62 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _e651d635-20240208 OPENFOAM=2312 patch=240220 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : /usr/lib/openfoam/openfoam2312/platforms/linux64GccDPInt32Opt/bin/renumberMesh -parallel -overwrite
+Date   : Nov 12 2025
+Time   : 22:39:38
+Host   : dmanzsvr
+PID    : 2903937
+I/O    : uncollated
+Case   : /home/dman/Desktop/cfd/FreeCAD/case
+nProcs : 4
+Hosts  :
+(
+    (dmanzsvr 4)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Mesh region0 size: 161692
+Before renumbering :
+    band           : 40361
+    profile        : 729313688
+
+Using default renumberMethod.
+
+Selecting renumberMethod CuthillMcKee
+
+Reading volScalarField: k nut omega p
+Reading volVectorField: U
+
+Renumbering processor cell decomposition map cellProcAddressing
+Renumbering processor face decomposition map faceProcAddressing
+Renumbering processor point decomposition map pointProcAddressing
+After renumbering :
+    band           : 3081
+    profile        : 222747276
+
+Writing mesh to "constant"
+Reading hexRef8 data : cellLevel
+Reading hexRef8 data : pointLevel
+End
+
+Finalising parallel run
