@@ -1,0 +1,77 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _e651d635-20240208 OPENFOAM=2312 patch=240220 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : /usr/lib/openfoam/openfoam2312/platforms/linux64GccDPInt32Opt/bin/potentialFoam -parallel -initialiseUBCs -pName p -writep
+Date   : Nov 18 2025
+Time   : 08:05:46
+Host   : dmanzsvr
+PID    : 4137292
+I/O    : uncollated
+Case   : /home/dman/Desktop/cfd/FreeCAD/case
+nProcs : 4
+Hosts  :
+(
+    (dmanzsvr 4)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+potentialFlow: Operating solver in PISO mode
+
+Reading velocity field U
+
+Constructing pressure field p
+
+Constructing velocity potential field Phi
+
+No MRF models present
+
+
+Calculating potential flow
+GAMG:  Solving for Phi, Initial residual = 1, Final residual = 0.00761860313129356, No Iterations 13
+GAMG:  Solving for Phi, Initial residual = 0.012195263938432, Final residual = 0.000106171462742486, No Iterations 3
+GAMG:  Solving for Phi, Initial residual = 0.00182985777565047, Final residual = 1.67231544528863e-05, No Iterations 4
+GAMG:  Solving for Phi, Initial residual = 0.000483177120738115, Final residual = 3.68549604679396e-06, No Iterations 4
+GAMG:  Solving for Phi, Initial residual = 0.00014853868907864, Final residual = 1.36427004695424e-06, No Iterations 4
+GAMG:  Solving for Phi, Initial residual = 5.02966383357643e-05, Final residual = 4.1555028043114e-07, No Iterations 4
+GAMG:  Solving for Phi, Initial residual = 1.82676209976537e-05, Final residual = 1.65979574658586e-07, No Iterations 4
+GAMG:  Solving for Phi, Initial residual = 6.71531430615238e-06, Final residual = 7.57352709790515e-08, No Iterations 4
+GAMG:  Solving for Phi, Initial residual = 2.59000583495039e-06, Final residual = 8.59846995955342e-08, No Iterations 2
+Continuity error = 0.000114647917023101
+Interpolated velocity error = 0.00096545491184227
+
+Calculating approximate pressure field
+GAMG:  Solving for p, Initial residual = 0.999999999982848, Final residual = 0.00941920240071929, No Iterations 6
+GAMG:  Solving for p, Initial residual = 0.0734744333659233, Final residual = 0.00068142817051671, No Iterations 5
+GAMG:  Solving for p, Initial residual = 0.0140999278716293, Final residual = 0.000113364520049797, No Iterations 6
+GAMG:  Solving for p, Initial residual = 0.00400352153611592, Final residual = 3.25616148466992e-05, No Iterations 6
+GAMG:  Solving for p, Initial residual = 0.0014027587967698, Final residual = 1.0330360943531e-05, No Iterations 6
+GAMG:  Solving for p, Initial residual = 0.000505492270675631, Final residual = 3.91964348920212e-06, No Iterations 6
+GAMG:  Solving for p, Initial residual = 0.000195874851943675, Final residual = 1.93211820300032e-06, No Iterations 5
+GAMG:  Solving for p, Initial residual = 7.61419098415239e-05, Final residual = 6.13381357543811e-07, No Iterations 6
+GAMG:  Solving for p, Initial residual = 3.06739826516225e-05, Final residual = 3.06320064995073e-07, No Iterations 5
+ExecutionTime = 0.72 s  ClockTime = 0 s
+
+End
+
+Finalising parallel run
