@@ -1,0 +1,52 @@
+2025-11-19 12:17:09,814 - INFO - Starting CSV export for case: /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline
+2025-11-19 12:17:09,814 - INFO - Output folder: /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv
+2025-11-19 12:17:09,814 - INFO - Found 6 time directories in /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline
+2025-11-19 12:17:09,814 - INFO - Writing CSV output under /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv
+2025-11-19 12:17:09,814 - INFO - 
+=== Time 0 ===
+2025-11-19 12:17:09,814 - INFO -   [vector] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/0/U -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/0/U.csv
+2025-11-19 12:17:09,818 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/0/k -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/0/k.csv
+2025-11-19 12:17:09,818 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/0/nut -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/0/nut.csv
+2025-11-19 12:17:09,818 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/0/omega -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/0/omega.csv
+2025-11-19 12:17:09,818 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/0/p -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/0/p.csv
+2025-11-19 12:17:09,819 - INFO -   [skip] phi not found in /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/0
+2025-11-19 12:17:09,819 - INFO - 
+=== Time 100 ===
+2025-11-19 12:17:09,819 - INFO -   [vector] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/100/U -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/100/U.csv
+2025-11-19 12:17:10,263 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/100/k -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/100/k.csv
+2025-11-19 12:17:10,428 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/100/nut -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/100/nut.csv
+2025-11-19 12:17:10,603 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/100/omega -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/100/omega.csv
+2025-11-19 12:17:10,767 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/100/p -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/100/p.csv
+2025-11-19 12:17:10,929 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/100/phi -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/100/phi.csv
+2025-11-19 12:17:11,446 - INFO - 
+=== Time 200 ===
+2025-11-19 12:17:11,446 - INFO -   [vector] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/200/U -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/200/U.csv
+2025-11-19 12:17:11,887 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/200/k -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/200/k.csv
+2025-11-19 12:17:12,056 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/200/nut -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/200/nut.csv
+2025-11-19 12:17:12,234 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/200/omega -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/200/omega.csv
+2025-11-19 12:17:12,401 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/200/p -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/200/p.csv
+2025-11-19 12:17:12,565 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/200/phi -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/200/phi.csv
+2025-11-19 12:17:13,064 - INFO - 
+=== Time 300 ===
+2025-11-19 12:17:13,064 - INFO -   [vector] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/300/U -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/300/U.csv
+2025-11-19 12:17:13,497 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/300/k -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/300/k.csv
+2025-11-19 12:17:13,655 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/300/nut -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/300/nut.csv
+2025-11-19 12:17:13,819 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/300/omega -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/300/omega.csv
+2025-11-19 12:17:13,974 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/300/p -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/300/p.csv
+2025-11-19 12:17:14,131 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/300/phi -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/300/phi.csv
+2025-11-19 12:17:14,617 - INFO - 
+=== Time 400 ===
+2025-11-19 12:17:14,618 - INFO -   [vector] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/400/U -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/400/U.csv
+2025-11-19 12:17:15,058 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/400/k -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/400/k.csv
+2025-11-19 12:17:15,218 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/400/nut -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/400/nut.csv
+2025-11-19 12:17:15,379 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/400/omega -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/400/omega.csv
+2025-11-19 12:17:15,531 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/400/p -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/400/p.csv
+2025-11-19 12:17:15,682 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/400/phi -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/400/phi.csv
+2025-11-19 12:17:16,174 - INFO - 
+=== Time 416 ===
+2025-11-19 12:17:16,174 - INFO -   [vector] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/416/U -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/416/U.csv
+2025-11-19 12:17:16,609 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/416/k -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/416/k.csv
+2025-11-19 12:17:16,771 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/416/nut -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/416/nut.csv
+2025-11-19 12:17:16,930 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/416/omega -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/416/omega.csv
+2025-11-19 12:17:17,081 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/416/p -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/416/p.csv
+2025-11-19 12:17:17,234 - INFO -   [scalar] Converting /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline/416/phi -> /home/dman/Desktop/cfd/pinnromcfd/15deg_baseline_csv/416/phi.csv
