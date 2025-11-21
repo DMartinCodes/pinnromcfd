@@ -1,0 +1,164 @@
+2025-11-20 19:25:12,647 - INFO - Starting CSV export for case: /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline
+2025-11-20 19:25:12,647 - INFO - Output folder: /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv
+2025-11-20 19:25:12,648 - INFO - Found 20 time directories in /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline
+2025-11-20 19:25:12,648 - INFO - Writing CSV output under /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv
+2025-11-20 19:25:12,648 - INFO - 
+=== Time 100 ===
+2025-11-20 19:25:12,648 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/100/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/100/U.csv
+2025-11-20 19:25:13,178 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/100/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/100/k.csv
+2025-11-20 19:25:13,371 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/100/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/100/nut.csv
+2025-11-20 19:25:13,573 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/100/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/100/omega.csv
+2025-11-20 19:25:13,760 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/100/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/100/p.csv
+2025-11-20 19:25:13,946 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/100/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/100/phi.csv
+2025-11-20 19:25:14,556 - INFO - 
+=== Time 200 ===
+2025-11-20 19:25:14,557 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/200/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/200/U.csv
+2025-11-20 19:25:15,080 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/200/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/200/k.csv
+2025-11-20 19:25:15,275 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/200/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/200/nut.csv
+2025-11-20 19:25:15,472 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/200/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/200/omega.csv
+2025-11-20 19:25:15,658 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/200/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/200/p.csv
+2025-11-20 19:25:15,863 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/200/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/200/phi.csv
+2025-11-20 19:25:16,481 - INFO - 
+=== Time 300 ===
+2025-11-20 19:25:16,481 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/300/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/300/U.csv
+2025-11-20 19:25:16,997 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/300/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/300/k.csv
+2025-11-20 19:25:17,193 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/300/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/300/nut.csv
+2025-11-20 19:25:17,389 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/300/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/300/omega.csv
+2025-11-20 19:25:17,571 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/300/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/300/p.csv
+2025-11-20 19:25:17,751 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/300/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/300/phi.csv
+2025-11-20 19:25:18,358 - INFO - 
+=== Time 400 ===
+2025-11-20 19:25:18,359 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/400/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/400/U.csv
+2025-11-20 19:25:18,870 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/400/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/400/k.csv
+2025-11-20 19:25:19,056 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/400/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/400/nut.csv
+2025-11-20 19:25:19,246 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/400/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/400/omega.csv
+2025-11-20 19:25:19,423 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/400/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/400/p.csv
+2025-11-20 19:25:19,600 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/400/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/400/phi.csv
+2025-11-20 19:25:20,201 - INFO - 
+=== Time 500 ===
+2025-11-20 19:25:20,201 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/500/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/500/U.csv
+2025-11-20 19:25:20,715 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/500/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/500/k.csv
+2025-11-20 19:25:20,897 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/500/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/500/nut.csv
+2025-11-20 19:25:21,089 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/500/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/500/omega.csv
+2025-11-20 19:25:21,267 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/500/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/500/p.csv
+2025-11-20 19:25:21,442 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/500/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/500/phi.csv
+2025-11-20 19:25:22,061 - INFO - 
+=== Time 600 ===
+2025-11-20 19:25:22,061 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/600/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/600/U.csv
+2025-11-20 19:25:22,586 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/600/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/600/k.csv
+2025-11-20 19:25:22,768 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/600/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/600/nut.csv
+2025-11-20 19:25:22,960 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/600/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/600/omega.csv
+2025-11-20 19:25:23,141 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/600/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/600/p.csv
+2025-11-20 19:25:23,331 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/600/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/600/phi.csv
+2025-11-20 19:25:23,960 - INFO - 
+=== Time 700 ===
+2025-11-20 19:25:23,960 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/700/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/700/U.csv
+2025-11-20 19:25:24,470 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/700/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/700/k.csv
+2025-11-20 19:25:24,655 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/700/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/700/nut.csv
+2025-11-20 19:25:24,845 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/700/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/700/omega.csv
+2025-11-20 19:25:25,020 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/700/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/700/p.csv
+2025-11-20 19:25:25,195 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/700/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/700/phi.csv
+2025-11-20 19:25:25,793 - INFO - 
+=== Time 800 ===
+2025-11-20 19:25:25,793 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/800/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/800/U.csv
+2025-11-20 19:25:26,297 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/800/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/800/k.csv
+2025-11-20 19:25:26,479 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/800/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/800/nut.csv
+2025-11-20 19:25:26,669 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/800/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/800/omega.csv
+2025-11-20 19:25:26,844 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/800/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/800/p.csv
+2025-11-20 19:25:27,020 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/800/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/800/phi.csv
+2025-11-20 19:25:27,630 - INFO - 
+=== Time 900 ===
+2025-11-20 19:25:27,631 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/900/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/900/U.csv
+2025-11-20 19:25:28,142 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/900/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/900/k.csv
+2025-11-20 19:25:28,339 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/900/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/900/nut.csv
+2025-11-20 19:25:28,541 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/900/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/900/omega.csv
+2025-11-20 19:25:28,724 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/900/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/900/p.csv
+2025-11-20 19:25:28,917 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/900/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/900/phi.csv
+2025-11-20 19:25:29,532 - INFO - 
+=== Time 1000 ===
+2025-11-20 19:25:29,532 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1000/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1000/U.csv
+2025-11-20 19:25:30,048 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1000/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1000/k.csv
+2025-11-20 19:25:30,233 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1000/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1000/nut.csv
+2025-11-20 19:25:30,424 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1000/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1000/omega.csv
+2025-11-20 19:25:30,605 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1000/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1000/p.csv
+2025-11-20 19:25:30,780 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1000/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1000/phi.csv
+2025-11-20 19:25:31,385 - INFO - 
+=== Time 1100 ===
+2025-11-20 19:25:31,385 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1100/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1100/U.csv
+2025-11-20 19:25:31,899 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1100/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1100/k.csv
+2025-11-20 19:25:32,084 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1100/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1100/nut.csv
+2025-11-20 19:25:32,276 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1100/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1100/omega.csv
+2025-11-20 19:25:32,454 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1100/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1100/p.csv
+2025-11-20 19:25:32,631 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1100/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1100/phi.csv
+2025-11-20 19:25:33,244 - INFO - 
+=== Time 1200 ===
+2025-11-20 19:25:33,245 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1200/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1200/U.csv
+2025-11-20 19:25:33,773 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1200/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1200/k.csv
+2025-11-20 19:25:33,956 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1200/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1200/nut.csv
+2025-11-20 19:25:34,153 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1200/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1200/omega.csv
+2025-11-20 19:25:34,337 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1200/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1200/p.csv
+2025-11-20 19:25:34,525 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1200/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1200/phi.csv
+2025-11-20 19:25:35,147 - INFO - 
+=== Time 1300 ===
+2025-11-20 19:25:35,147 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1300/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1300/U.csv
+2025-11-20 19:25:35,662 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1300/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1300/k.csv
+2025-11-20 19:25:35,850 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1300/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1300/nut.csv
+2025-11-20 19:25:36,044 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1300/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1300/omega.csv
+2025-11-20 19:25:36,225 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1300/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1300/p.csv
+2025-11-20 19:25:36,406 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1300/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1300/phi.csv
+2025-11-20 19:25:37,009 - INFO - 
+=== Time 1400 ===
+2025-11-20 19:25:37,009 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1400/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1400/U.csv
+2025-11-20 19:25:37,515 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1400/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1400/k.csv
+2025-11-20 19:25:37,700 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1400/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1400/nut.csv
+2025-11-20 19:25:37,892 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1400/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1400/omega.csv
+2025-11-20 19:25:38,067 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1400/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1400/p.csv
+2025-11-20 19:25:38,244 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1400/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1400/phi.csv
+2025-11-20 19:25:38,843 - INFO - 
+=== Time 1500 ===
+2025-11-20 19:25:38,843 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1500/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1500/U.csv
+2025-11-20 19:25:39,349 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1500/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1500/k.csv
+2025-11-20 19:25:39,541 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1500/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1500/nut.csv
+2025-11-20 19:25:39,747 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1500/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1500/omega.csv
+2025-11-20 19:25:39,929 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1500/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1500/p.csv
+2025-11-20 19:25:40,113 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1500/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1500/phi.csv
+2025-11-20 19:25:40,723 - INFO - 
+=== Time 1600 ===
+2025-11-20 19:25:40,723 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1600/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1600/U.csv
+2025-11-20 19:25:41,231 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1600/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1600/k.csv
+2025-11-20 19:25:41,419 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1600/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1600/nut.csv
+2025-11-20 19:25:41,616 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1600/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1600/omega.csv
+2025-11-20 19:25:41,797 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1600/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1600/p.csv
+2025-11-20 19:25:41,981 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1600/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1600/phi.csv
+2025-11-20 19:25:42,596 - INFO - 
+=== Time 1700 ===
+2025-11-20 19:25:42,597 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1700/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1700/U.csv
+2025-11-20 19:25:43,118 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1700/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1700/k.csv
+2025-11-20 19:25:43,305 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1700/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1700/nut.csv
+2025-11-20 19:25:43,498 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1700/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1700/omega.csv
+2025-11-20 19:25:43,676 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1700/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1700/p.csv
+2025-11-20 19:25:43,852 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1700/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1700/phi.csv
+2025-11-20 19:25:44,448 - INFO - 
+=== Time 1800 ===
+2025-11-20 19:25:44,449 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1800/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1800/U.csv
+2025-11-20 19:25:44,957 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1800/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1800/k.csv
+2025-11-20 19:25:45,142 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1800/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1800/nut.csv
+2025-11-20 19:25:45,332 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1800/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1800/omega.csv
+2025-11-20 19:25:45,513 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1800/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1800/p.csv
+2025-11-20 19:25:45,695 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1800/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1800/phi.csv
+2025-11-20 19:25:46,307 - INFO - 
+=== Time 1900 ===
+2025-11-20 19:25:46,307 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1900/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1900/U.csv
+2025-11-20 19:25:46,812 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1900/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1900/k.csv
+2025-11-20 19:25:46,997 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1900/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1900/nut.csv
+2025-11-20 19:25:47,188 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1900/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1900/omega.csv
+2025-11-20 19:25:47,366 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1900/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1900/p.csv
+2025-11-20 19:25:47,546 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/1900/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/1900/phi.csv
+2025-11-20 19:25:48,158 - INFO - 
+=== Time 2000 ===
+2025-11-20 19:25:48,159 - INFO -   [vector] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/2000/U -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/2000/U.csv
+2025-11-20 19:25:48,667 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/2000/k -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/2000/k.csv
+2025-11-20 19:25:48,850 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/2000/nut -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/2000/nut.csv
+2025-11-20 19:25:49,042 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/2000/omega -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/2000/omega.csv
+2025-11-20 19:25:49,219 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/2000/p -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/2000/p.csv
+2025-11-20 19:25:49,396 - INFO -   [scalar] Converting /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline/2000/phi -> /home/dman/Documents/fall_sem/ml/pinnromcfd/0deg_baseline_csv/2000/phi.csv

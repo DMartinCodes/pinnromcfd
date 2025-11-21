@@ -3,3 +3,4 @@ constant/polyMesh/
 processor*/
 postProcessing/
 *.log
+.venv
